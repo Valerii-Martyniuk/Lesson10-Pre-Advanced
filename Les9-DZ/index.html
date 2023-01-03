@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <div class="infoLeft">
+          <form name="Left-form">
+            <h3>Login</h3>
+            <div class="info-input">
+              <input
+                type="text"
+                name="Log"
+                class="Inp-text L1"
+                placeholder="Enter login"
+              />
+            </div>
+            <h3>Password</h3>
+            <div class="info-input">
+              <input
+                type="password"
+                name="Pass"
+                class="Inp-text P1"
+                placeholder="Enter password"
+              />
+            </div>
+            <h3>Email address</h3>
+            <div class="info-input">
+              <input
+                type="text"
+                name="Email"
+                class="Inp-text E1"
+                placeholder="Enter email"
+              />
+            </div>
+            <div class="info-input">
+              <input
+                type="button"
+                name="AddUse"
+                value="Add user"
+                class="addUser-btn"
+                disabled
+              />
+            </div>
+          </form>
+        </div>
+        <div class="infoRight">
+          <form name="tableForm">
+            <table class="Tatable">
+              <thead>
+                <tr>
+                  <td>#</td>
+                  <td>Login</td>
+                  <td>Password</td>
+                  <td>Email</td>
+                  <td>Edit</td>
+                  <td>Delete</td>
+                </tr>
+              </thead>
+              <tbody class="TatableBody"></tbody>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
